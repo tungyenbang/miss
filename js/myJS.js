@@ -60,8 +60,7 @@ const textConfig = {
     }
     // move random button póition
     function moveButton() {
-      var audio = new Audio("sound/Swish1.mp3");
-      audio.play();
+      
       if (screen.width <= 600) {
         var x = Math.random() * 300;
         var y = Math.random() * 500;
@@ -107,8 +106,7 @@ const textConfig = {
   
     // show popup
     $("#yes").click(function () {
-      var audio = new Audio("sound/tick.mp3");
-      audio.play();
+      
       Swal.fire({
         title: textConfig.text7,
         html: true,
